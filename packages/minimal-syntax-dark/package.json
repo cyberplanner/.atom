@@ -1,0 +1,87 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/sal/d-117111-389-7i7cou/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/sal/d-117111-389-7i7cou/package.tgz",
+        "spec": "/tmp/sal/d-117111-389-7i7cou/package.tgz",
+        "type": "local"
+      },
+      "/tmp/sal/apm-install-dir-117111-389-f8jxj2"
+    ]
+  ],
+  "_from": "../d-117111-389-7i7cou/package.tgz",
+  "_id": "minimal-syntax-dark@0.6.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/minimal-syntax-dark",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/sal/d-117111-389-7i7cou/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/sal/d-117111-389-7i7cou/package.tgz",
+    "spec": "/tmp/sal/d-117111-389-7i7cou/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-117111-389-7i7cou/package.tgz",
+  "_shasum": "cc9b8d6d94875e57439dea0fce01f2de51836780",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/sal/d-117111-389-7i7cou/package.tgz",
+  "_where": "/tmp/sal/apm-install-dir-117111-389-f8jxj2",
+  "author": {
+    "name": "David van Gemeren",
+    "email": "david@burodepeper.nl"
+  },
+  "bugs": {
+    "url": "https://github.com/burodepeper/minimal-syntax-dark/issues"
+  },
+  "dependencies": {},
+  "description": "Dark version of minimal-syntax",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "homepage": "https://github.com/burodepeper/minimal-syntax-dark#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "minimal",
+    "dark",
+    "colorful",
+    "bright",
+    "high contrast",
+    "web",
+    "webdev",
+    "web development",
+    "html",
+    "php",
+    "coffeescript",
+    "javascript",
+    "css",
+    "scss",
+    "sass",
+    "mysql",
+    "markdown"
+  ],
+  "license": "MIT",
+  "main": "./lib/main.coffee",
+  "name": "minimal-syntax-dark",
+  "optionalDependencies": {},
+  "private": true,
+  "readme": "# Minimal (dark)\n\nA _work-in-progress_ attempt at creating a dark version for [minimal-syntax](https://github.com/burodepeper/minimal-syntax). Use with caution ;)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burodepeper/minimal-syntax-dark.git"
+  },
+  "theme": "syntax",
+  "version": "0.6.0"
+}

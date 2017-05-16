@@ -1,0 +1,102 @@
+.syntax--css,
+.syntax--scss {
+
+  &.syntax--attribute
+  {
+    color: @variable;
+  }
+
+  .syntax--at-rule
+  {
+    color: @syntax-alt;
+    // background: fade(@syntax-alt, 10%);
+    // text-decoration: underline;
+  }
+
+  .syntax--at-rule .syntax--function
+  {
+    // color: inherit;
+    font-weight: normal;
+    color: @syntax-alt;
+  }
+
+  &.syntax--keyword.syntax--unit.syntax--other,
+  .syntax--attribute-name {
+    font-weight: normal;
+  }
+
+  &.syntax--class,
+  &.syntax--id {
+    color: @content;
+
+    .syntax--punctuation.syntax--definition.syntax--entity { // # in #id
+      color: inherit;
+    }
+  }
+
+  &.syntax--parent-selector {
+    .syntax--punctuation {
+      opacity: 1;
+    }
+  }
+
+  &.syntax--support.syntax--function {
+    // color: @variable;
+    color: @syntax;
+    font-weight: bold;
+  }
+
+  .syntax--function,
+  &.syntax--punctuation.syntax--definition.syntax--entity, // &
+  &.syntax--id {
+    font-weight: bold;
+  }
+
+  // &.pseudo-element,
+  // &.pseudo-class
+  // {
+  //   font-style: italic;
+  // }
+
+  &.syntax--tag,
+  &.syntax--reference,
+  &.syntax--function,
+  .syntax--mathematical-symbols,
+  &.syntax--punctuation.syntax--definition.syntax--entity, // &
+  .syntax--property-value .syntax--property-value {
+    color: @syntax;
+  }
+
+  .syntax--property-value {
+    color: @text;
+  }
+
+  // &.function,
+  // &.syntax--tag,
+  // &.syntax--reference {
+  //   color: @syntax-alt;
+  // }
+
+  &.syntax--important {
+    color: @constant;
+  }
+  // Maybe in the future...
+  // &.property-name {
+  //   &.vendor-prefix {
+  //     color: fade(@syntax, 66%);
+  //     font-style: italic;
+  //   }
+  // }
+}
+
+
+
+.syntax--less {
+  // &.control,
+  // &.keyword,
+  .syntax--html // atom-text-editor
+  {
+    color: @syntax-alt;
+    font-weight: bold;
+  }
+}

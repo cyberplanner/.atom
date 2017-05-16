@@ -1,0 +1,104 @@
+.syntax--php {
+
+  &.syntax--storage.syntax--modifier.syntax--extends, // extends
+  &.syntax--storage.syntax--modifier.syntax--abstract, // abstract
+  &.syntax--basic-functions, // define()
+  &.syntax--function.syntax--support,
+  &.syntax--function.syntax--math, // floor()
+  &.syntax--function.syntax--file, // realpath(), file_exists(), is_writable()
+  &.syntax--function.syntax--dir, // opendir(), readdir()
+  &.syntax--function.syntax--info, // ini_get()
+  &.syntax--function.syntax--array, // array_merge()
+  &.syntax--storage.syntax--type, // parent, (int)
+  &.syntax--storage.syntax--type.syntax--class, // class
+  &.syntax--storage.syntax--type.syntax--function, // function
+  &.syntax--support.syntax--construct, // array(), isset(), empty()
+  // &.property.variable, // $var->property->function
+  &.syntax--class.syntax--variable // Validate::$type ($type)
+  {
+    color: @syntax;
+  }
+
+  &.syntax--classobj,
+  // &.storage.modifier, // public, private, global
+  &.syntax--storage.syntax--modifier.syntax--reference, // &
+  &.syntax--new, // new
+  &.syntax--session, // session_start()
+  &.syntax--import, // require(), include()
+  &.syntax--network, // header()
+  &.syntax--support.syntax--network, // header()
+  &.syntax--control, // if, then, else, return, exit(), foreach, switch, case, default, break, die, while
+  &.syntax--construct // echo
+  {
+    color: @syntax-alt;
+  }
+
+  &.syntax--inherited-class,
+  &.syntax--class.syntax--name
+  {
+    color: @syntax-alt;
+  }
+
+  &.syntax--string,
+  &.syntax--string-contents {
+    color: @content;
+  }
+
+  &.syntax--constant {
+    color: @constant;
+  }
+
+  &.syntax--control,
+  &.syntax--classobj,
+  &.syntax--network,
+  &.syntax--import
+  {
+    font-weight: bold;
+  }
+
+  &.syntax--keyword.syntax--operator.syntax--string
+  {
+    opacity: 0.667;
+  }
+
+  .syntax--operator {
+    &.syntax--arithmetic, // +, *
+    &.syntax--assignment, // =
+    &.syntax--comparison, // >
+    &.syntax--increment-decrement, // ++, --
+    &.syntax--key, // =>
+    &.syntax--class,
+    &.syntax--string,
+    {
+      color:@syntax-alt;
+    }
+
+    &.syntax--class { // ->, ::
+      font-weight: normal;
+    }
+
+    &.syntax--logical // ||, as, &&, !
+    {
+      color: @syntax-alt;
+      // color: @constant;
+    }
+  }
+
+  &.syntax--arguments {
+    &:not(.syntax--argument) {
+      color: fade(@text, 66%);
+    }
+  }
+
+  &.syntax--embedded {
+    &.syntax--begin,
+    &.syntax--end,
+    &.syntax--line {
+      color: @neutral;
+
+      .syntax--source.syntax--php {
+        color: inherit;
+      }
+    }
+  }
+}

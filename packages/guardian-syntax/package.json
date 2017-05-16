@@ -1,0 +1,64 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/sal/d-1161118-14799-4rtp94/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/sal/d-1161118-14799-4rtp94/package.tgz",
+        "spec": "/tmp/sal/d-1161118-14799-4rtp94/package.tgz",
+        "type": "local"
+      },
+      "/tmp/sal/apm-install-dir-1161118-14799-14qlke9"
+    ]
+  ],
+  "_from": "../d-1161118-14799-4rtp94/package.tgz",
+  "_id": "guardian-syntax@0.1.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/guardian-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/sal/d-1161118-14799-4rtp94/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/sal/d-1161118-14799-4rtp94/package.tgz",
+    "spec": "/tmp/sal/d-1161118-14799-4rtp94/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-1161118-14799-4rtp94/package.tgz",
+  "_shasum": "3eaf91291649d17dfa469358f624d17efde1b774",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/sal/d-1161118-14799-4rtp94/package.tgz",
+  "_where": "/tmp/sal/apm-install-dir-1161118-14799-14qlke9",
+  "bugs": {
+    "url": "https://github.com/jamesabels/guardian-syntax/issues"
+  },
+  "dependencies": {},
+  "description": "A rad syntax theme inspired by Guardian for VIM.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "homepage": "https://github.com/jamesabels/guardian-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme"
+  ],
+  "license": "MIT",
+  "name": "guardian-syntax",
+  "optionalDependencies": {},
+  "readme": "# Guardian theme\n\nA rad syntax theme inspired by Guardian for VIM.\n\n![Guardian for Atom.](http://i.imgur.com/IQjUKfQ.jpg)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jamesabels/guardian-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.1.0"
+}

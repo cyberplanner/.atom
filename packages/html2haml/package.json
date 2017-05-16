@@ -1,0 +1,60 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/sal/d-1161127-11405-1msjubq/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/sal/d-1161127-11405-1msjubq/package.tgz",
+        "spec": "/tmp/sal/d-1161127-11405-1msjubq/package.tgz",
+        "type": "local"
+      },
+      "/tmp/sal/apm-install-dir-1161127-11405-1584q7s"
+    ]
+  ],
+  "_from": "../d-1161127-11405-1msjubq/package.tgz",
+  "_id": "html2haml@0.10.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/html2haml",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/sal/d-1161127-11405-1msjubq/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/sal/d-1161127-11405-1msjubq/package.tgz",
+    "spec": "/tmp/sal/d-1161127-11405-1msjubq/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-1161127-11405-1msjubq/package.tgz",
+  "_shasum": "ca22389114f9a2f5de91297b3aeebedf9caa2356",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/sal/d-1161127-11405-1msjubq/package.tgz",
+  "_where": "/tmp/sal/apm-install-dir-1161127-11405-1584q7s",
+  "bugs": {
+    "url": "https://github.com/jaunkst/atom-html2haml/issues"
+  },
+  "dependencies": {},
+  "description": "Convert html selection to haml.",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "homepage": "https://github.com/jaunkst/atom-html2haml#readme",
+  "license": "MIT",
+  "main": "./lib/html2haml",
+  "name": "html2haml",
+  "optionalDependencies": {},
+  "readme": "# Html2Haml Package for Atom.io\n\nConverts selection from HTML to HAML using html2haml-attributes.herokuapp.com API\n\nSelect html to convert to haml. Open the Command Palette (cmd-shift-P). Select Html2Haml: Convert\n\n![A screenshot of your spankin' package](https://f.cloud.github.com/assets/69169/2290250/c35d867a-a017-11e3-86be-cd7c5bf3ff9b.gif)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaunkst/atom-html2haml.git"
+  },
+  "version": "0.10.0"
+}

@@ -1,0 +1,24 @@
+.syntax--text.syntax--plain,
+.syntax--text.syntax--md,
+.syntax--source.syntax--gfm,
+.syntax--comment {
+  .syntax--type {
+    // font-style: normal;
+
+    &.syntax--bug,
+    &.syntax--changed,
+    &.syntax--fixme,
+    &.syntax--idea,
+    &.syntax--nb,
+    &.syntax--note,
+    &.syntax--xxx,
+    &.syntax--hack,
+    &.syntax--review,
+    &.syntax--todo,
+    &.syntax--review,
+    &.syntax--hack {
+      color: @comment;
+      font-weight: bold;
+    }
+  }
+}

@@ -1,0 +1,33 @@
+"*":
+  core:
+    disabledPackages: [
+      "atom-terminal-panel"
+      "terminal-plus"
+      "atom-beautify"
+      "atom-clock"
+      "script"
+      "floobits"
+      "javascript-snippets"
+      "html2haml"
+      "language-gfm"
+    ]
+    telemetryConsent: "no"
+    themes: [
+      "atom-dark-ui"
+      "one-dark-syntax"
+    ]
+  editor:
+    fontFamily: "Source Code Pro for Powerline"
+    fontSize: 12
+    invisibles: {}
+    scrollPastEnd: true
+    showIndentGuide: true
+    showInvisibles: true
+    softWrap: true
+  "exception-reporting":
+    userId: "0d953d26-a949-9649-1720-e2f08a0e2ee7"
+  "linter-ui-default":
+    showPanel: true
+  "tree-view": {}
+  welcome:
+    showOnStartup: false

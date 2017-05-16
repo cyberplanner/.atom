@@ -1,0 +1,87 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "/tmp/sal/d-11724-27924-5antdy/package.tgz",
+        "scope": null,
+        "escapedName": null,
+        "name": null,
+        "rawSpec": "/tmp/sal/d-11724-27924-5antdy/package.tgz",
+        "spec": "/tmp/sal/d-11724-27924-5antdy/package.tgz",
+        "type": "local"
+      },
+      "/tmp/sal/apm-install-dir-11724-27924-i88wtm"
+    ]
+  ],
+  "_from": "../d-11724-27924-5antdy/package.tgz",
+  "_id": "minimal-syntax@0.21.0",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/minimal-syntax",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "/tmp/sal/d-11724-27924-5antdy/package.tgz",
+    "scope": null,
+    "escapedName": null,
+    "name": null,
+    "rawSpec": "/tmp/sal/d-11724-27924-5antdy/package.tgz",
+    "spec": "/tmp/sal/d-11724-27924-5antdy/package.tgz",
+    "type": "local"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "file:../d-11724-27924-5antdy/package.tgz",
+  "_shasum": "a5418f7f125b6876210bca29b0d29d98989e98c1",
+  "_shrinkwrap": null,
+  "_spec": "/tmp/sal/d-11724-27924-5antdy/package.tgz",
+  "_where": "/tmp/sal/apm-install-dir-11724-27924-i88wtm",
+  "author": {
+    "name": "David van Gemeren",
+    "email": "david@burodepeper.nl"
+  },
+  "bugs": {
+    "url": "https://github.com/burodepeper/minimal-syntax/issues"
+  },
+  "dependencies": {},
+  "description": "Light syntax theme, high contrast/low brightness, three primary colors, easy on the eyes",
+  "devDependencies": {},
+  "engines": {
+    "atom": ">=1.13.0 <2.0.0"
+  },
+  "homepage": "https://github.com/burodepeper/minimal-syntax#readme",
+  "keywords": [
+    "syntax",
+    "theme",
+    "minimal",
+    "light",
+    "colorful",
+    "bright",
+    "high contrast",
+    "web",
+    "webdev",
+    "web development",
+    "html",
+    "php",
+    "coffeescript",
+    "javascript",
+    "css",
+    "scss",
+    "sass",
+    "mysql",
+    "markdown"
+  ],
+  "license": "MIT",
+  "main": "./lib/main.coffee",
+  "name": "minimal-syntax",
+  "optionalDependencies": {},
+  "private": true,
+  "readme": "# Minimal\n\nI've attempted to consistently limit myself to three primary colors to style similar semantic elements across languages, while remaining easy on the eyes.\n\n- <span style='color:#e10'>**Red**</span>: is used for `constants` and `numeric values`\n- <span style='color:#090'>**Green**</span>: is used for `strings` and `attributes`\n- <span style='color:#00f'>**Blue**</span>: is used for `language` elements\n\nDifferent shades and subtle color variants are used to create a visual hierarchy that's quick to read, and easy to understand.\n\nThis theme is still a _work in progress_ though **actively maintained**. Suggestions are always welcome and highly appreciated.\n\nAlso available: [minimal-syntax-dark](https://atom.io/packages/minimal-syntax-dark)\n\n### From personal experience\n\nI've created this theme for myself and from personal experience. It is/will be optimised for the languages I regularly use: `html`, `php`, `coffeescript`, `javascript`, `scss`, `css`, `less`, `mysql`, `apache` and `markdown`.\n\n### Screenshots\n\n#### html\n![](https://github.com/burodepeper/minimal-syntax/raw/master/screenshots/minimal-html.png)\n\n#### css\n![](https://github.com/burodepeper/minimal-syntax/raw/master/screenshots/minimal-css.png)\n",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/burodepeper/minimal-syntax.git"
+  },
+  "theme": "syntax",
+  "version": "0.21.0"
+}

@@ -1,0 +1,141 @@
+.syntax--js {
+  .syntax--variable {
+    &.syntax--language {
+      color: @syntax; // this
+    }
+  }
+
+  &.syntax--constant {
+    // &:not(.numeric) {
+    //   color: @syntax-alt;
+    // }
+
+    &.syntax--support, // x, y, prototype :(
+    &.syntax--dom { // width, height
+      color: @text;
+      font-weight: normal;
+    }
+  }
+
+  &.syntax--support {
+    &.syntax--function {
+      &.syntax--event-handler {
+        font-weight: bold;
+      }
+    }
+
+    &.syntax--constant {
+      color: @variable;
+    }
+  }
+
+  &.syntax--keyword.syntax--operator.syntax--typeof,
+  &.syntax--keyword.syntax--operator.syntax--instanceof,
+  &.syntax--function:not(.syntax--parameter) {
+    font-weight: bold;
+  }
+
+  // &.syntax--keyword.syntax--operator.syntax--new,
+  &.syntax--keyword.syntax--operator.syntax--typeof,
+  &.syntax--keyword.syntax--operator.syntax--instanceof,
+  &.syntax--dom {
+    color: @syntax;
+  }
+
+  &.syntax--keyword.syntax--operator.syntax--new,
+  &.syntax--meta.syntax--parameters {
+    font-weight: normal;
+  }
+
+  &.syntax--keyword.syntax--operator.syntax--new,
+  &.syntax--instance {
+    color: @syntax-alt;
+    // color: @text;
+  }
+
+  &.syntax--constant.syntax--boolean {
+    color: @constant;
+  }
+
+  &.syntax--embedded {
+    .syntax--html.syntax--tag {
+      color: @syntax-alt;
+    }
+  }
+
+  &.syntax--support.syntax--class, // event, window
+  {
+    font-weight: normal;
+    color: @syntax;
+  }
+
+  &.syntax--keyword {
+    &.syntax--operator { // :, =, +, -
+      // color: @text;
+      color: @syntax-alt;
+
+      &.syntax--comparison, // ==
+      &.syntax--increment, // ++
+      &.syntax--decrement, // --
+      &.syntax--logical { // &&
+        // color: @syntax-alt;
+        // color: @text;
+      }
+    }
+
+    &.syntax--control { // from, if, return
+
+    }
+  }
+
+  &.syntax--meta {
+    &.syntax--comma {
+      color: @text;
+    }
+    &.syntax--prototype .syntax--support.syntax--constant { // prototype
+      color: @syntax-alt;
+    }
+    &.syntax--arguments {
+      > .syntax--punctuation {
+        color: @syntax;
+      }
+    }
+    &.syntax--function-call {
+      & > .syntax--name {
+        font-weight: normal;
+      }
+    }
+  }
+
+  &.syntax--entity.syntax--name.syntax--type.syntax--instance { // new {ClassName}
+    // font-weight: normal;
+  }
+
+  &.syntax--string {
+    & > .syntax--embedded.syntax--js {
+      // background: fade(@variable, 10%);
+      color: @syntax;
+
+      & > .syntax--punctuation {
+        color: @variable;
+      }
+    }
+  }
+
+  &.syntax--arguments {
+    color: @text;
+  }
+
+  &.syntax--meta {
+    &.syntax--brace {
+      color: @syntax;
+    }
+  }
+
+  &.syntax--function {
+    &.syntax--bracket {
+      color: @syntax;
+      font-weight: normal;
+    }
+  }
+}

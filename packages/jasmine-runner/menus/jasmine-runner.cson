@@ -1,0 +1,30 @@
+# See https://atom.io/docs/latest/creating-a-package#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Run this Jasmine file'
+      'command': 'jasmine-runner:run-file'
+    },
+    {
+      'label': 'Run this Jasmine test'
+      'command': 'jasmine-runner:run-test'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Jasmine Runner'
+      'submenu': [
+        {
+          'label': 'Run current file'
+          'command': 'jasmine-runner:run-file'
+        },
+        {
+          'label': 'Run current test'
+          'command': 'jasmine-runner:run-test'
+        }
+      ]
+    ]
+  }
+]

@@ -1,0 +1,15 @@
+// Basic colors (light)
+@background:     #ffffff;
+@text:           #333333;
+@syntax:         #0000ff;
+@content:        #009900;
+@variable:       #0099cc;
+@constant:       #ee1100;
+@highlight:      #ffdd00;
+@comment:       mix(@constant, @highlight);
+
+// Derivatives (light)
+@neutral:        mix(@text, @background);
+@syntax-alt:     darken(@syntax, 15%);
+@content-alt:    darken(@content, 10%);
+@constant-alt:   darken(@constant, 10%);
